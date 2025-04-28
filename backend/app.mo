@@ -12,7 +12,7 @@ import Int "mo:base/Int";
 import Nat8 "mo:base/Nat8";
 import Nat64 "mo:base/Nat64";
 
-actor class Tokenmania() = this {
+actor class TropaCoinRAO() = this {
 
   // Set temporary values for the token.
   // These will be overritten when the token is created.
