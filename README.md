@@ -11,7 +11,7 @@ TropaCoinRAO is an open-source fintech project managed by Velatropa24Ventures CO
 * Use the ICRC-37 token standard to create and test TropaCoin Tokens, itemized in Tropakals, as an NFT non-fungible token.
 * Perform regular security reviews and audits to ensure robustness of the app, before and after testing 
 
-Learn more about the [Six Types of Capital](https://velatropa24ventures.art/)
+Learn more about the [Six Types of Capital](https://www.velatropa24ventures.art/)
 1. Natural Capital
 2. Social Capital
 3. Cultural Capital
