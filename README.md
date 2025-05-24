@@ -33,6 +33,6 @@ The `/backend` folder contains the Motoko canister, `app.mo`. The `/frontend` fo
 ## Support and promote this project 
 
 * Explore [V24V's Investor Plans](https://www.velatropa24ventures.art/investor-plans)
-* Become a [V24V Affiliate](https://www.tropaneur.university/)
+* Enroll in a course in our [Online School](https://www.tropaneur.university/)
 * Read the latest Mythmatics article from [V24V's Substack](https://velatropa24venturesco.substack.com/)
 
