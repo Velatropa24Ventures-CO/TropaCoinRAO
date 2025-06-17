@@ -1,0 +1,14 @@
+[
+  {
+    "rate": 4.15,
+    "source": "API",
+    "createdAt": "2025-06-01T10:00:00Z",
+    "updatedAt": "2025-06-01T10:00:00Z"
+  },
+  {
+    "rate": 4.20,
+    "source": "manual-entry",
+    "createdAt": "2025-06-01T12:00:00Z",
+    "updatedAt": "2025-06-01T12:00:00Z"
+  }
+]
