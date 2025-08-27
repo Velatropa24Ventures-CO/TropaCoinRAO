@@ -12,7 +12,7 @@ export default {
         meteorite: '#522785'
       },
       fontFamily: {
-        body: ['Circular Std', 'sans']
+        montserrat: ['Montserrat', 'Circular Std', 'sans-serif']
       }
     }
   }
