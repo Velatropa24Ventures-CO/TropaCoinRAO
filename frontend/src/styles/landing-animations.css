@@ -1,0 +1,44 @@
+/* frontend/src/styles/landing-animations.css */
+
+/* fade + slide up effect used across the landing page */
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* reusable class — no delay so multiple elements animate together */
+.fade-slide {
+  opacity: 0; /* start hidden so animation controls appearance */
+  animation-name: fadeSlideUp;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.2, .9, .2, 1);
+  animation-fill-mode: forwards; /* keep final state */
+  animation-delay: 0s; /* <- ALL start immediately */
+  will-change: transform, opacity;
+}
+
+/* slightly snappier for buttons */
+.fade-slide-button {
+  opacity: 0;
+  animation-name: fadeSlideUp;
+  animation-duration: 520ms;
+  animation-timing-function: cubic-bezier(.2, .9, .2, 1);
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+}
+
+/* honor reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .fade-slide,
+  .fade-slide-button {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
